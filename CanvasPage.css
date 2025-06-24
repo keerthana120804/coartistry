@@ -1,0 +1,39 @@
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+}
+
+.room-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.room-info h2 {
+  color: #d94f8b;
+  margin-bottom: 10px;
+}
+
+.toolbar {
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f5f5dc;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+canvas {
+  border: 2px solid #d94f8b;
+  border-radius: 10px;
+  background: #fff;
+  cursor: crosshair;
+}
